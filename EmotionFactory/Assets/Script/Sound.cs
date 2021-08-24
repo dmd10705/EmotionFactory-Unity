@@ -2,6 +2,8 @@
 
 public class Sound : MonoBehaviour
 {
+    [Header("音效延遲時間")]
+    
     public float R = 3f;
     private float R2;
     public float pitch; //寫改成的pitch值
